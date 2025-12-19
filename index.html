@@ -11,6 +11,8 @@
     <!-- font-family: Pretendard; -->
     <link rel="stylesheet" as="style" crossorigin
         href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+    <!-- aos 연결 -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- css 연결 -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -55,7 +57,7 @@
         <div id="section1">
             <h3 class="story">Story</h3>
             <div class="box1 box">
-                <div class="box_text">
+                <div class="box_text" data-aos="fade-right" data-aos-duration="1000">
                     <div class="text_title">
                         <span>매일매일(Cherriette),</span>
                         <br>
@@ -95,7 +97,7 @@
                 <div class="box_img">
                     <img src="./image/section1_02.jpg" alt="story">
                 </div><!-- .box_img -->
-                <div class="box_text">
+                <div class="box_text" data-aos="fade-left" data-aos-duration="1000">
                     <div class="text_title">
                         <span>정직한 레시피가</span>
                         <br>
@@ -126,7 +128,7 @@
             </div><!-- .box2 -->
 
             <div class="box3 box">
-                <div class="box_text">
+                <div class="box_text" data-aos="fade-right" data-aos-duration="1000">
                     <div class="text_title">
                         <span>감성을 굽는 브랜드,</span>
                         <br>
@@ -164,10 +166,10 @@
         </div><!-- #section1 -->
 
         <div id="section2">
-            <h3 class="menu">Menu</h3>
-            <p class="menu">체리엣만의 달콤함으로 추억을 찾아보세요</p>
+            <h3 class="menu" data-aos="fade-down" data-aos-duration="1000">Menu</h3>
+            <p class="menu" data-aos="fade-down" data-aos-duration="1000">체리엣만의 달콤함으로 추억을 찾아보세요</p>
 
-            <div class="container_menu">
+            <div class="container_menu" data-aos="fade-down" data-aos-duration="1100">
                 <ul class="menu_category">
                     <li data-category="cake"><a href="#">케이크</a></li>
                     <li data-category="donut"><a href="#">도넛</a></li>
@@ -180,61 +182,61 @@
                     <ul class="menu_list" data-category="cake">
                         <li>
                             <a href="#">
-                                <img src="./image/cake_01.jpg">
+                                <div class="img-box"><img src="./image/cake_01.jpg"></div>
                                 <p>체리 케이크</p>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="./image/cake_02.jpg">
+                                <div class="img-box"><img src="./image/cake_02.jpg"></div>
                                 <p>다크초코 체리 생크림 케이크</p>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="./image/cake_03.jpg">
+                                <div class="img-box"><img src="./image/cake_03.jpg"></div>
                                 <p>클래식 생크림 케이크</p>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="./image/cake_04.jpg">
+                                <div class="img-box"><img src="./image/cake_04.jpg"></div>
                                 <p>딸기 생크림 쇼트케이크</p>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="./image/cake_05.jpg">
+                                <div class="img-box"><img src="./image/cake_05.jpg"></div>
                                 <p>레트로 생크림 케이크</p>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="./image/cake_06.jpg">
+                                <div class="img-box"><img src="./image/cake_06.jpg"></div>
                                 <p>레트로 생크림 케이크</p>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="./image/cake_07.jpg">
+                                <div class="img-box"><img src="./image/cake_07.jpg"></div>
                                 <p>레트로 생크림 케이크</p>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="./image/cake_08.jpg">
+                                <div class="img-box"><img src="./image/cake_08.jpg"></div>
                                 <p>레트로 생크림 케이크</p>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="./image/cake_09.jpg">
+                                <div class="img-box"><img src="./image/cake_09.jpg"></div>
                                 <p>레트로 생크림 케이크</p>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="./image/cake_10.jpg">
+                                <div class="img-box"><img src="./image/cake_10.jpg"></div>
                                 <p>레트로 생크림 케이크</p>
                             </a>
                         </li>
@@ -244,31 +246,31 @@
                     <ul class="menu_list" data-category="donut" style="display:none;">
                         <li>
                             <a href="#">
-                                <img src="./image/donut_01.jpg">
+                                <div class="img-box"><img src="./image/donut_01.jpg"></div>
                                 <p>화이트 시럽 도넛</p>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="./image/donut_02.jpg">
+                                <div class="img-box"><img src="./image/donut_02.jpg"></div>
                                 <p>딸기잼 도넛</p>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="./image/donut_03.jpg">
+                                <div class="img-box"><img src="./image/donut_03.jpg"></div>
                                 <p>오리지널 도넛</p>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="./image/donut_04.jpg">
+                                <div class="img-box"><img src="./image/donut_04.jpg"></div>
                                 <p>딥카카오 도넛</p>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="./image/donut_05.jpg">
+                                <div class="img-box"><img src="./image/donut_05.jpg"></div>
                                 <p>초코&화이트 도넛</p>
                             </a>
                         </li>
@@ -278,43 +280,43 @@
                     <ul class="menu_list" data-category="cookie" style="display:none;">
                         <li>
                             <a href="#">
-                                <img src="./image/cookie_01.jpg">
+                                <div class="img-box"><img src="./image/cookie_01.jpg"></div>
                                 <p>초코칩 쿠키</p>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="./image/cookie_02.jpg">
+                                <div class="img-box"><img src="./image/cookie_02.jpg"></div>
                                 <p>초코칩 쿠키</p>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="./image/cookie_03.jpg">
+                                <div class="img-box"><img src="./image/cookie_03.jpg"></div>
                                 <p>초코칩 쿠키</p>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="./image/cookie_04.jpg">
+                                <div class="img-box"><img src="./image/cookie_04.jpg"></div>
                                 <p>초코칩 쿠키</p>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="./image/cookie_05.jpg">
+                                <div class="img-box"><img src="./image/cookie_05.jpg"></div>
                                 <p>초코칩 쿠키</p>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="./image/cookie_06.jpg">
+                                <div class="img-box"><img src="./image/cookie_06.jpg"></div>
                                 <p>초코칩 쿠키</p>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="./image/cookie_07.jpg">
+                                <div class="img-box"><img src="./image/cookie_07.jpg"></div>
                                 <p>초코칩 쿠키</p>
                             </a>
                         </li>
@@ -324,43 +326,43 @@
                     <ul class="menu_list" data-category="coffee" style="display:none;">
                         <li>
                             <a href="#">
-                                <img src="./image/drink_01.jpg">
+                                <div class="img-box"><img src="./image/drink_01.jpg"></div>
                                 <p>아메리카노</p>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="./image/drink_02.jpg">
+                                <div class="img-box"><img src="./image/drink_02.jpg"></div>
                                 <p>라떼</p>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="./image/drink_03.jpg">
+                                <div class="img-box"><img src="./image/drink_03.jpg"></div>
                                 <p>밀크쉐이크</p>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="./image/drink_04.jpg">
+                                <div class="img-box"><img src="./image/drink_04.jpg"></div>
                                 <p>딸기쉐이크</p>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="./image/drink_05.jpg">
+                                <div class="img-box"><img src="./image/drink_05.jpg"></div>
                                 <p>바나나쉐이크</p>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="./image/drink_06.jpg">
+                                <div class="img-box"><img src="./image/drink_06.jpg"></div>
                                 <p>체리쉐이크</p>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="./image/drink_07.jpg">
+                                <div class="img-box"><img src="./image/drink_07.jpg"></div>
                                 <p>초코쉐이크</p>
                             </a>
                         </li>
@@ -375,8 +377,8 @@
         </div><!-- #section3 -->
 
         <div id="section4">
-            <h3 class="margin">MD</h3>
-            <div class="container_md">
+            <h3 class="margin" data-aos="fade-down" data-aos-duration="1000">MD</h3>
+            <div class="container_md" data-aos="fade-down" data-aos-duration="1100">
                 <div class="md_left">
                     <a href="#">
                         <div class="img">
@@ -450,14 +452,22 @@
         </div><!-- #section4 -->
 
         <div id="section5">
-            <h3 class="margin">Event</h3>
-            <div class="container_event">
+            <h3 class="margin" data-aos="fade-down" data-aos-duration="1000">Event</h3>
+            <div class="container_event" data-aos="fade-down" data-aos-duration="1100">
                 <div class="event-scroll-wrapper">
                     <div class="event_list">
                         <!-- 1 -->
                         <div class="event-item">
                             <a href="#">
-                                <img src="./image/poster_01.jpg" alt="event poster">
+                                <div class="img">
+                                    <img src="./image/poster_01.jpg" alt="event poster">
+
+                                    <div class="cover">
+                                        <div>
+                                            <p>더보기</p>
+                                        </div>
+                                    </div><!-- .cover -->
+                                </div><!-- .img -->
                                 <p>생일축하 케이크 30% 할인!</p>
                                 <span>2025-09-01</span>
                             </a>
@@ -466,7 +476,15 @@
                         <!-- 2 -->
                         <div class="event-item">
                             <a href="#">
-                                <img src="./image/poster_02.jpg" alt="event poster">
+                                <div class="img">
+                                    <img src="./image/poster_02.jpg" alt="event poster">
+
+                                    <div class="cover">
+                                        <div>
+                                            <p>더보기</p>
+                                        </div>
+                                    </div><!-- .cover -->
+                                </div><!-- .img -->
                                 <p>꾸덕한 초코 케이크 출시!</p>
                                 <span>2025-09-10</span>
                             </a>
@@ -475,7 +493,15 @@
                         <!-- 3 -->
                         <div class="event-item">
                             <a href="#">
-                                <img src="./image/poster_03.jpg" alt="event poster">
+                                <div class="img">
+                                    <img src="./image/poster_03.jpg" alt="event poster">
+
+                                    <div class="cover">
+                                        <div>
+                                            <p>더보기</p>
+                                        </div>
+                                    </div><!-- .cover -->
+                                </div><!-- .img -->
                                 <p>새로운 한정메뉴 출시!</p>
                                 <span>2025-09-16 ~ 2025-10-10</span>
                             </a>
@@ -484,7 +510,15 @@
                         <!-- 4 -->
                         <div class="event-item">
                             <a href="#">
-                                <img src="./image/poster_04.jpg" alt="event poster">
+                                <div class="img">
+                                    <img src="./image/poster_04.jpg" alt="event poster">
+
+                                    <div class="cover">
+                                        <div>
+                                            <p>더보기</p>
+                                        </div>
+                                    </div><!-- .cover -->
+                                </div><!-- .img -->
                                 <p>컵케이크 3종 특별 행사!</p>
                                 <span>2025-09-20 ~ 2025-10-20</span>
                             </a>
@@ -493,7 +527,15 @@
                         <!-- 5 -->
                         <div class="event-item">
                             <a href="#">
-                                <img src="./image/poster_05.jpg" alt="event poster">
+                                <div class="img">
+                                    <img src="./image/poster_05.jpg" alt="event poster">
+
+                                    <div class="cover">
+                                        <div>
+                                            <p>더보기</p>
+                                        </div>
+                                    </div><!-- .cover -->
+                                </div><!-- .img -->
                                 <p>크림 가득 미니케이크!</p>
                                 <span>2025-09-27</span>
                             </a>
@@ -502,7 +544,15 @@
                         <!-- 6 -->
                         <div class="event-item">
                             <a href="#">
-                                <img src="./image/poster_06.jpg" alt="event poster">
+                                <div class="img">
+                                    <img src="./image/poster_06.jpg" alt="event poster">
+
+                                    <div class="cover">
+                                        <div>
+                                            <p>더보기</p>
+                                        </div>
+                                    </div><!-- .cover -->
+                                </div><!-- .img -->
                                 <p>이번주 스페셜 메뉴!</p>
                                 <span>2025-10-01 ~ 2025-10-08</span>
                             </a>
@@ -511,7 +561,15 @@
                         <!-- 7 -->
                         <div class="event-item">
                             <a href="#">
-                                <img src="./image/poster_07.jpg" alt="event poster">
+                                <div class="img">
+                                    <img src="./image/poster_07.jpg" alt="event poster">
+
+                                    <div class="cover">
+                                        <div>
+                                            <p>더보기</p>
+                                        </div>
+                                    </div><!-- .cover -->
+                                </div><!-- .img -->
                                 <p>딸기생크림 케이크 이벤트!</p>
                                 <span>2025-10-02</span>
                             </a>
@@ -520,7 +578,15 @@
                         <!-- 8 -->
                         <div class="event-item">
                             <a href="#">
-                                <img src="./image/poster_08.jpg" alt="event poster">
+                                <div class="img">
+                                    <img src="./image/poster_08.jpg" alt="event poster">
+
+                                    <div class="cover">
+                                        <div>
+                                            <p>더보기</p>
+                                        </div>
+                                    </div><!-- .cover -->
+                                </div><!-- .img -->
                                 <p>오렌지 초코 케이크 출시!</p>
                                 <span>2025-10-05</span>
                             </a>
@@ -532,7 +598,7 @@
 
         <div id="section6">
             <div class="container_faq">
-                <div class="box_faq1">
+                <div class="box_faq1" data-aos="fade-right" data-aos-duration="1000">
                     <p>
                         <span>
                             우리 동네에서 가까운<br>
@@ -548,7 +614,7 @@
                     </div><!-- .btn -->
                 </div><!-- .box_faq1 -->
 
-                <div class="box_faq2">
+                <div class="box_faq2" data-aos="fade-left" data-aos-duration="1100">
                     <div class="faq_header">
                         <h3 class="faq_title">FAQ</h3>
                         <a href="#">
@@ -560,30 +626,31 @@
                         <li>
                             <a href="#">
 
-                                <span>01</span> <p>비회원 구매 가능한가요?</p>
+                                <span>01</span>
+                                <p>비회원 구매 가능한가요?</p>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <span>02</span> 
+                                <span>02</span>
                                 <p>배송 기간은 얼마나 걸리나요?</p>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <span>03</span> 
+                                <span>03</span>
                                 <p>메뉴 영양성분은 어떻게 되나요?</p>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <span>04</span> 
+                                <span>04</span>
                                 <p>비회원 구매 후 주문번호가 기억나지 않습니다.</p>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <span>05</span> 
+                                <span>05</span>
                                 <p>상품 반품/교환 진행 시, 배송비가 부과되나요?</p>
                             </a>
                         </li>
@@ -594,8 +661,8 @@
 
 
         <div id="section7">
-            <h3 class="margin">Instagram</h3>
-            <div class="inner_section7">
+            <h3 class="margin" data-aos="fade-down" data-aos-duration="1000">Instagram</h3>
+            <div class="inner_section7" data-aos="fade-down" data-aos-duration="1100">
                 <div class="left_box">
                     <a href="#"><img src="./image/instagram_img_01.jpg" alt="big image"></a>
                 </div><!-- .left_box -->
@@ -620,9 +687,12 @@
                         </h1><!-- .logo -->
                     </a>
                     <ul class="sns">
-                        <li><a href="https://www.instagram.com/" target="_blank"><img src="./image/sns_Instagram.png" alt="인스타그램"></a></li>
-                        <li><a href="https://x.com/?lang=ko" target="_blank"><img src="./image/sns_X.png" alt="엑스"></a></li>
-                        <li><a href="https://www.youtube.com/?hl=ko&gl=KR&app=desktop" target="_blank"><img src="./image/sns_YouTube.png" alt="유튜브"></a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><img src="./image/sns_Instagram.png"
+                                    alt="인스타그램"></a></li>
+                        <li><a href="https://x.com/?lang=ko" target="_blank"><img src="./image/sns_X.png" alt="엑스"></a>
+                        </li>
+                        <li><a href="https://www.youtube.com/?hl=ko&gl=KR&app=desktop" target="_blank"><img
+                                    src="./image/sns_YouTube.png" alt="유튜브"></a></li>
                     </ul><!-- .sns -->
                 </div><!-- .image -->
                 <ul class="util">
@@ -658,6 +728,11 @@
     <script src="js/jquery-3.7.1.min.js"></script>
     <!-- 제어구문 연결 -->
     <script src="js/script.js"></script>
+    <!-- aos 적용하기 -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
