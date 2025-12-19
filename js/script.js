@@ -17,27 +17,24 @@ $(function () {
     });
 });
 
-setInterval(function(){
-
-    $(".slide").delay(3000);
-    $(".slide").animate({
-        marginLeft: "-1920px"
-    }, 1000);
-
-    $(".slide").delay(3000);
-    $(".slide").animate({
-        marginLeft: "-3840px"
-    }, 1000);
-
-    $(".slide").delay(3000);
-    $(".slide").animate({
-        marginLeft: "-5760px"
-    }, 1000);
-
-    $(".slide").animate({
-        marginLeft: "0px"
-    }, 0);
-}, 3000);
+// .mySwiper1 : 위에 class 명과 동일해야 함.
+        var swiper = new Swiper(".mySwiper1", {
+            slidesPerView: 1, // 한 슬라이드에 보여줄 갯수
+            spaceBetween: 0, // 슬라이드 사이 여백
+            autoplay: {     //자동슬라이드 (false-비활성화)
+                delay: 3000, // 시간 설정
+                disableOnInteraction: false, // false-스와이프 후 자동 재생
+            },
+            loop: true, // 슬라이드 반복 여부
+            pagination: {
+                el: "#slide1 .swiper-pagination",
+                clickable: true,  // 불렛 버튼 클릭 여부
+            },
+            navigation: {   // 화살표 버튼
+                nextEl: ".swiper-button-next",
+                prevEl: "#slide1 .swiper-button-prev",
+            },
+        });
 
 //section2
 // 카테고리 버튼
@@ -71,6 +68,7 @@ categoryButtons.forEach(button => {
     });
 });
 
+//top 버튼
 $(function () {
 
     const showPos = 500; // 이 픽셀 이상 내려가면 보이기

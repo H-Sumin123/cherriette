@@ -13,6 +13,8 @@
         href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
     <!-- aos 연결 -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <!-- css 연결 -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -38,20 +40,19 @@
         </div><!-- #header -->
 
         <div id="slide">
-            <ul class="slide">
-                <li>
-                    <a href="#"><img src="./image/banner_01.jpg" alt="banner"></a>
-                </li>
-                <li>
-                    <a href="#"><img src="./image/banner_02.jpg" alt="banner"></a>
-                </li>
-                <li>
-                    <a href="#"><img src="./image/banner_03.jpg" alt="banner"></a>
-                </li>
-                <li>
-                    <a href="#"><img src="./image/banner_01.jpg" alt="banner"></a>
-                </li>
-            </ul>
+            <div class="swiper mySwiper1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./image/banner_01.jpg" alt="배너">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./image/banner_02.jpg" alt="배너">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./image/banner_03.jpg" alt="배너">
+                    </div>
+                </div>
+            </div><!-- swiper mySwiper1 -->
         </div><!-- #slide -->
 
         <div id="section1">
@@ -726,6 +727,8 @@
 
     <!-- jQuery 오픈소스 -->
     <script src="js/jquery-3.7.1.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- 제어구문 연결 -->
     <script src="js/script.js"></script>
     <!-- aos 적용하기 -->
